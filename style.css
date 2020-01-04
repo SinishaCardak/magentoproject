@@ -1,0 +1,376 @@
+.magnetic {
+  margin-top: 70px;
+}
+
+ul,
+li {
+  padding-top: 30px;
+  color: black;
+}
+
+.text-bottom {
+  color: black;
+  pointer-events: none;
+  padding-top: 10px;
+}
+
+.pic1 {
+  background-image: url(./work1.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic2 {
+  background-image: url(./work2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic3 {
+  background-image: url(./work3.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic4 {
+  background-image: url(./work4.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic5 {
+  background-image: url(./work5.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic6 {
+  background-image: url(./work6.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic7 {
+  background-image: url(./work2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic8 {
+  background-image: url(./work3.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.pic9 {
+  background-image: url(./work1.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pic1:hover .overlay {
+  opacity: 1;
+}
+
+.pic2:hover .overlay {
+  opacity: 1;
+}
+
+.pic3:hover .overlay {
+  opacity: 1;
+}
+
+.pic4:hover .overlay {
+  opacity: 1;
+}
+
+.pic5:hover .overlay {
+  opacity: 1;
+}
+
+.pic6:hover .overlay {
+  opacity: 1;
+}
+
+.pic7:hover .overlay {
+  opacity: 1;
+}
+
+.pic8:hover .overlay {
+  opacity: 1;
+}
+
+.pic9:hover .overlay {
+  opacity: 1;
+}
+
+.fa-facebook-f {
+  border: 2px solid grey;
+  padding-top: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+  color: gray;
+}
+
+.fa-google {
+  border: 2px solid grey;
+  padding-top: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+  color: gray;
+}
+
+.fa-behance {
+  border: 2px solid grey;
+  padding-top: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+  color: gray;
+}
+
+.fa-twitter {
+  border: 2px solid grey;
+  padding-top: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 2px;
+  color: gray;
+}
+
+.list-group {
+  position: fixed;
+  top: 85%;
+  left: 1%;
+}
+
+.list-unstyled {
+  position: fixed;
+}
+
+.logo {
+  position: fixed;
+}
+
+.list-unstyled,
+:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.fa-facebook-f:hover {
+  background: blue;
+  color: white;
+}
+
+.fa-google:hover {
+  background: orangered;
+  color: white;
+}
+
+.fa-behance:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+.fa-twitter:hover {
+  background: lightsalmon;
+  color: white;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+.hamburgermenu {
+  background: none;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  line-height: 35px;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+  display: none;
+  color: grey;
+  
+}
+
+@media screen and (max-width: 769px) {
+  .hamburgermenu {
+    display: block;
+  }
+
+  .magnetic {
+    margin-bottom: 50px;
+  }
+
+  .pic1 {
+    width: 390px;
+    height: 380px;
+  }
+
+  .pic2 {
+    width: 390px;
+    height: 380px;
+    margin-left: 390px;
+    margin-top: -380px;
+  }
+
+  .pic3 {
+    width: 390px;
+    height: 380px;
+  }
+
+  .pic4 {
+    width: 390px;
+    height: 380px;
+    margin-left: 390px;
+    margin-top: -380px;
+  }
+
+  .pic5 {
+    width: 390px;
+    height: 380px;
+  }
+
+  .pic6 {
+    width: 390px;
+    height: 380px;
+    margin-left: 390px;
+    margin-top: -380px;
+  }
+
+  .pic7 {
+    width: 390px;
+    height: 380px;
+  }
+
+.pic8 {
+    width: 390px;
+    height: 380px;
+    margin-left: 390px;
+    margin-top: -380px;
+}
+
+.pic9 {
+    width: 390px;
+    height: 380px;
+  }
+
+  .list-unstyled {
+    display: none;
+  }
+
+  .list-group {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+ .hamburgermenu {
+     right: -70%;
+ }
+
+ .magnetic {
+     padding-left: 50px;
+ }
+
+ .pic1 {
+  width: 800px;
+  height: 800px;
+ }
+
+ .pic2 {
+    width: 800px;
+    height: 800px;
+    margin: 0%;
+ }
+
+ .pic3 {
+    width: 800px;
+    height: 800px;
+ }
+
+ .pic4 {
+    width: 800px;
+    height: 800px;
+    margin: 0%; 
+ }
+
+ .pic5 {
+    width: 800px;
+    height: 800px;
+ }
+
+ .pic6 {
+    width: 800px;
+    height: 800px;
+    margin: 0%; 
+ }
+
+ .pic7 {
+    width: 800px;
+    height: 800px;
+ }
+
+ .pic8 {
+    width: 800px;
+    height: 800px;
+    margin: 0%; 
+ }
+
+ .pic9 {
+    width: 800px;
+    height: 800px;
+ }
+}
+
+@media screen and (max-width: 376px) {
+    .hamburgermenu {
+        right: -100%;
+    }
+
+    .magnetic {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .hamburgermenu {
+        right: -130%;
+    }
+}
